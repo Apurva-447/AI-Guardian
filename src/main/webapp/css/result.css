@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main card */
+.result-container {
+    max-width: 700px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.result-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Text blocks */
+.result-box {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Risk colors */
+.low {
+    color: green;
+    font-weight: bold;
+}
+
+.medium {
+    color: orange;
+    font-weight: bold;
+}
+
+.high {
+    color: red;
+    font-weight: bold;
+}
+
+/* Emergency alert */
+.emergency {
+    background: #ffe5e5;
+    color: #c0392b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Button */
+.back-btn {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    font-size: 18px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background: #2980b9;
+}
+/* 🛡️ SAFETY TIPS */
+.tips-box {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff3cd;
+    border-left: 6px solid #ff9800;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.tips-box h3 {
+    margin-bottom: 12px;
+    color: #d84315;
+}
+
+.tips-box p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
